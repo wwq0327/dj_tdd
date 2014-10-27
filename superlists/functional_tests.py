@@ -1,13 +1,6 @@
 from selenium import webdriver
 import unittest
 
-## brower = webdriver.Firefox()
-## brower.get('http://localhost:8000')
-
-## assert 'To-Do' in brower.title, "Browser title was " + brower.title
-
-## brower.quit()
-
 class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):
